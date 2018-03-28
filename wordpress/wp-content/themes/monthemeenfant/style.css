@@ -1,0 +1,40 @@
+/*
+ Theme Name:   Mon thème enfant
+ Theme URI:    localhost
+ Description:  Theme enfant
+ Template:     primer
+ Version:      1.0.0
+*/
+
+/*MENU */
+.navigation__title{float : left;}
+
+#navigation-principale ul{text-align: right;}
+
+#navigation-principale li {
+    list-style: none;
+    position: relative;
+    display : inline-block;
+    padding: 10px;
+    font-weight: 500;
+}
+#navigation-principale li a {color: #fff;}
+a:hover{text-decoration: none;}
+
+/*DEFINITION*/
+.definition{text-align: center;}
+
+/*ARTICLE*/
+.site-header{
+	background-image: url("background.jpg");
+}
+
+.row {
+    display: flex;
+}
+
+.article {
+    flex: 50%;
+    margin-right: 20px;
+}
+
